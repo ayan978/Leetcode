@@ -1,3 +1,6 @@
+import math
+
+
 class Solution(object):
     def lengthOfLongestSubstring(self, s):
         """
@@ -17,3 +20,4 @@ class Solution(object):
 
         return max_len
 
+print(math.floor(5.4))
