@@ -8,7 +8,7 @@ class Solution(object):
         i = 0
         j = len(x1) - 1
         flag = True
-        while i < len(x1):
+        while i < j:
             if x1[i] == x1[j]:
                 i += 1
                 j -= 1

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6c8f9e7-4eeb-45db-81dc-4aca26f6f087" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/4. Median of Two Sorted Arrays.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3. Longest Substring.py" beforeDir="false" afterPath="$PROJECT_DIR$/3. Longest Substring.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +30,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.4. Median of Two Sorted Arrays (1)">
+  <component name="RunManager" selected="Python.Practice">
     <configuration name="13. Roman to Integer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Practice" />
         <item itemvalue="Python.4. Median of Two Sorted Arrays (1)" />
         <item itemvalue="Python.4. Median of Two Sorted Arrays" />
         <item itemvalue="Python.practice" />
         <item itemvalue="Python.13. Roman to Integer" />
-        <item itemvalue="Python.Practice" />
       </list>
     </recent_temporary>
   </component>
