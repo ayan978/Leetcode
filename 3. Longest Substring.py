@@ -19,5 +19,3 @@ class Solution(object):
                 b += 1
 
         return max_len
-
-print(math.floor(5.4))
