@@ -8,7 +8,7 @@ class Solution {
                 s1.push(s.charAt(i));
             }
             
-            else if(!s1.isEmpty() && ((s.charAt(i)==')' && s1.peek()=='(') || (s.charAt(i)=='}' && s1.peek()=='{') || (s.charAt(i)==']' && s1.peek()=='['))){
+            else if((!s1.isEmpty()) && ((s.charAt(i)==')' && s1.peek()=='(') || (s.charAt(i)=='}' && s1.peek()=='{') || (s.charAt(i)==']' && s1.peek()=='['))){
                 s1.pop();
             }
             
