@@ -1,10 +1,15 @@
 class Solution(object):
     def twoSum(self, nums, target):
-        l1 = []
-        for i in range(len(nums)):
-            for j in range(i + 1, len(nums)):
-                if nums[i] + nums[j] == target:
-                    l1.append(i)
-                    l1.append(j)
-                    break
-        return l1
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+        dict1 = {}
+        length = len(nums)
+
+        for i in range(length):
+            difference = target - nums[i]
+            if difference in dict1:
+                return [dict1[difference], i]
+            dict1[nums[i]] = i
